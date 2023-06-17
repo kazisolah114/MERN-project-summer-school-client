@@ -1,0 +1,28 @@
+.footer-details {
+    background: #393939;
+    color: #d3d3d3;
+}
+.footer-details h5{
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.footer-details ul {
+    padding-left: 0;
+}
+.footer-details ul li {
+    list-style: none;
+}
+.footer-details ul li a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+.footer-details a {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+.footer-rights {
+    background: #444444;
+    padding: 10px 0;
+    color: #d0d0d0;
+}

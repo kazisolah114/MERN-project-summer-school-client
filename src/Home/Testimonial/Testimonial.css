@@ -1,0 +1,27 @@
+.testimonials {
+    background: #f1f1f15e;
+    padding: 20px;
+    border-radius: 10px 0 10px 0;
+}
+.testimonials span {
+    font-size: 27px;
+    color: gray;
+}
+.testimonials p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.client-info{}
+.client-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.client-info div h6 {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.client-info div p {
+    margin: 0;
+    font-size: 14px;
+}

@@ -1,0 +1,41 @@
+/* Common button styles */
+.button {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    /* cursor: pointer; */
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+  
+  /* Approve button styles */
+  .approve-button {
+    /* background-color: #28a745; */
+  }
+  
+  /* Deny button styles */
+  .deny-button {
+    /* background-color: #dc3545; */
+  }
+  /* Send feedback button styles */
+  .send-feedback-button {
+    background-color: #007bff;
+  }
+  
+  /* Button hover effect */
+  .button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Button active effect */
+  .button:active {
+    transform: translateY(1px);
+  }
+  .manage-classes{}

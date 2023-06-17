@@ -1,0 +1,53 @@
+.classes-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px 40px;
+}
+/*  */
+.class-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 110%); */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    transition: .4s;
+}
+.class-item:hover{
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 150%); */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+.classes-img{}
+.classes-img img {
+    border-radius: 10px 0 0 10px;
+    width: 220px;
+    height: 250px;
+}
+.class{}
+.class h2{
+    color: gray;
+}
+.class h2 span {
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+.class p {
+    margin-top: 5px;
+    color: gray;
+}
+.class p span {
+    color: black;
+}
+.cls-btn {
+    /* background: #5a9947; */
+    padding: 5px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 30px;
+    transition: .3s;
+}
+.cls-btn:hover{
+    background-color: #66bc4c;
+}

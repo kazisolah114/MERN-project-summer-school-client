@@ -1,0 +1,43 @@
+.user-login {
+    width: 450px;
+    margin: 40px auto;
+    border-radius: 10px;
+    background: #8080800f;
+    padding-bottom: 30px;
+
+}
+.user-login h2 {
+    background: #17A189;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+.user-login form{}
+.user-login form input {
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 15px!important;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #cbcbcb;
+    outline: none;
+    border-radius: 3px;
+    background: #ffffffd6;
+}
+.user-login form input[type=submit] {
+    background: #17A189;
+    color: white;
+    padding: 0;
+    border-radius: 5px;
+}
+.user-login p{
+    text-align: center;
+}
+.user-login p a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #17A189;
+}

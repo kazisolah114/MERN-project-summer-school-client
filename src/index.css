@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.delete-button {
+    color: #de0000;
+    font-size: 22px;
+    text-align: center;
+    background: #231f01f0;
+    width: 40px;
+    height: 35px;
+    line-height: 18px;
+    border-radius: 7px;
+}
+.payment-button {
+    display: inline-block;
+    padding: 7px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #5a9947;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+  .payment-button:hover {
+    background-color: #4b853c;
+  }
+  
