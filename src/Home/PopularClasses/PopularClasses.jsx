@@ -19,7 +19,7 @@ const PopularClasses = () => {
             .then(data => setPopularClass(data))
 
     }, []);
-    console.log(popularClass)
+    // console.log(popularClass)
     const [axiosSecure] = UseAxiosSecure()
     const { data: users = [], refetch } = useQuery(['users'], async () => {
         const res = await axiosSecure.get('/users')
@@ -80,7 +80,7 @@ const PopularClasses = () => {
             <div className="popular-classes">
             <div className="classes-cards">
                         {
-                            approved.map(item => <div key={item._id} className={item.seats == 0 ? 'class-item bg-[#8f0000]' : 'class-item'}>
+                            approved.slice(0, 6).map(item => <div key={item._id} className={item.seats == 0 ? 'class-item bg-[#8f0000]' : 'class-item'}>
                                 <div className="classes-img">
                                     <img src={item.cimage} alt="" />
                                 </div>

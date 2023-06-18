@@ -25,6 +25,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import AdminRoute from './Routes/AdminRoute/AdminRoute.jsx';
 import InstructorRoute from './Routes/InstructorRoute/InstructorRoute.jsx';
 import UserRoute from './Routes/UserRoute/UserRoute.jsx';
+import InvalidPage from './Components/InvalidPage/InvalidPage.jsx';
 
 // import {
 //   QueryClient,
@@ -84,8 +85,12 @@ const router = createBrowserRouter([
       {
         path: 'feedback/:id',
         element: <FeedbackModa></FeedbackModa>
-      }
+      },
     ]
+  },
+  {
+    path: '*',
+    element: <InvalidPage></InvalidPage>
   }
 ])
 
