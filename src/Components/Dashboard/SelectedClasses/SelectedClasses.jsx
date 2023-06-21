@@ -17,12 +17,12 @@ const SelectedClasses = () => {
 
 
     const handleDeleteClass = async (item) => {
-        // console.log(item)
+        
         fetch(`https://summer-school-camp-server-kazisolah114.vercel.app/selectedclass/${item._id}`, {
             method: 'DELETE',
 
         });
-        // console.log(!item._id)
+        
         if (selectedclass) {
             refetch();
         }
